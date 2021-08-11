@@ -1,0 +1,24 @@
+.sidebar {
+  transition: 1s ease-in-out;
+  flex: 0.21;
+  position: sticky;
+  overflow-y: scroll;
+  background-color: #11cdef;
+  z-index: 10;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .sidebarWrapper {
+    margin: 7px 5px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: calc(100vh - 50px);
+    top: 50px;
+    position: fixed;
+    transform: translateX(-100%);
+  }
+}

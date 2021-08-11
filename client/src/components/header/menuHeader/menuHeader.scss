@@ -1,0 +1,13 @@
+.menuHeader {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #263238;
+  .iconButton {
+    border: none;
+    background-color: transparent;
+    .avatarIcon {
+      font-size: 40px;
+    }
+  }
+}

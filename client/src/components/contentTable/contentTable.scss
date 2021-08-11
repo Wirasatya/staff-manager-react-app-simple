@@ -1,0 +1,21 @@
+.contentTable {
+  overflow-x: auto;
+  background-color: #eeeeee;
+  .table {
+    width: 100%;
+    margin: 15px 0 10px;
+    th,
+    td {
+      padding: 0.75rem;
+    }
+    td {
+      text-align: center;
+    }
+    label {
+      position: relative;
+      cursor: pointer;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  }
+}

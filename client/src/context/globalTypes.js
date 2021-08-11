@@ -1,0 +1,6 @@
+export const GLOBALTYPES = {
+  ALERT: "ALERT",
+  TABLET: "TABLET",
+  MOBILE: "MOBILE",
+  SIDEBAR: "SIDEBAR",
+};

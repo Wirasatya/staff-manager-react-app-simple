@@ -1,0 +1,18 @@
+.dropdownHeader {
+  position: absolute;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  left: -15px;
+  top: 50%;
+  transform: translateX(-50%);
+  list-style-position: outside;
+  background-color: #b3e5fc;
+  border-radius: 5px;
+  li {
+    margin-bottom: 4px;
+    width: 100%;
+    border-bottom: 1px solid #e1f5fe;
+    text-align: center;
+  }
+}
